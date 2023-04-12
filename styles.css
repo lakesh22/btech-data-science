@@ -1,0 +1,166 @@
+body {
+  font-family: "Spectral", sans-serif;
+  /* background: linear-gradient(30deg, hwb(0 93% 4%), rgb(205, 232, 237)); */
+}
+
+img {
+  width: 1100px;
+  margin-left: 60px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 110px;
+}
+
+.a {
+  /* position: relative; */
+  overflow-y: scroll;
+}
+
+/* .centered {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: bolder;
+  opacity: 1;
+  border-radius: 8px;
+  box-shadow: 2px rgb(28, 31, 32);
+  /* text-shadow: 2px; */
+.b {
+  width: 1080px;
+  margin-left: 70px;
+  margin-top: 20px;
+  color: black;
+  border-color: black;
+  border-width: 2px;
+  font-size: 20px;
+  box-sizing: border-box;
+  /* display: flex; */
+  text-align: justify;
+  /* background-color: rgb(157, 241, 241); */
+}
+
+#d {
+  width: 700px;
+  object-fit: cover;
+  height: 290px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#sidebar {
+  overflow-x: hidden;
+  position: fixed;
+  width: 500px;
+  top: 200px;
+  left: 1000px;
+  /* margin-left: 1000px; */
+  /* margin-top: 0px;*/
+}
+.f {
+  display: flex;
+}
+
+#c {
+  margin-left: 70px;
+  font-size: 20px;
+  width: 700px;
+  text-align: justify;
+}
+
+.nav {
+  margin-left: 170px;
+  background-color: rgb(152, 172, 214);
+  font-size: 20px;
+  list-style: none;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px rgb(125, 109, 109);
+  position: fixed;
+  /* overflow: hidden; */
+}
+
+hr {
+  color: brown;
+  width: 1400px;
+}
+
+.nav-item {
+  line-height: 2em;
+  font-size: larger;
+}
+
+.nav-item :hover {
+  background-color: rgb(22, 126, 144);
+  border-radius: 8px;
+  color: rgb(143, 224, 197);
+}
+.p {
+  margin-left: 70px;
+  margin-top: 20px;
+  color: black;
+  border-color: black;
+  border-width: 2px;
+  font-size: 20px;
+  box-sizing: border-box;
+  display: list-item;
+  width: 1000px;
+  text-align: justify;
+}
+
+header {
+  position: static;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  text-decoration: none;
+  text-underline-position: unset;
+  background-color: rgb(46, 43, 43);
+  margin: 0;
+  margin-top: -8px;
+  margin-left: -8px;
+  color: rgb(174, 244, 244);
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header li {
+  margin-left: 20px;
+  margin-right: 40px;
+  color: rgb(183, 206, 226);
+}
+
+header li a {
+  color: aliceblue;
+}
+
+.centered div {
+  background-color: rgb(109, 101, 101);
+  opacity: 0.5;
+}
+
+.p1 {
+  width: 1000px;
+  object-fit: fill;
+  margin-bottom: 100px;
+}
+
+#place {
+  font-size: 30px;
+  margin-left: 450px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+#last {
+  display: block;
+}
