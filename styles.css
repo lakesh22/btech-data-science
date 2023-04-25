@@ -50,6 +50,10 @@ img {
   margin-top: 20px;
 }
 
+.seats {
+  margin-left: 70px;
+  font-size: 30px;
+}
 #sidebar {
   overflow-x: hidden;
   position: fixed;
